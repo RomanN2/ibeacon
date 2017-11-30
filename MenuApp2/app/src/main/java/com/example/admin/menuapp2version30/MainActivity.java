@@ -1,12 +1,14 @@
 package com.example.admin.menuapp2version30;
 
+        import android.content.Intent;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
         import android.view.Menu;
         import android.view.MenuItem;
+        import android.view.View;
         import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +28,10 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         TextView headerView = (TextView) findViewById(R.id.header);
         switch(id){
-            case R.id.action_settings:
+            case R.id.action_settings :
                 headerView.setText("Настройки");
+                Intent intent = new Intent(this,Activity_second.class);
+                startActivity(intent);
                 return true;
             case R.id.open_settings:
                 headerView.setText("Открыть");
@@ -37,5 +41,10 @@ public class MainActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 }
