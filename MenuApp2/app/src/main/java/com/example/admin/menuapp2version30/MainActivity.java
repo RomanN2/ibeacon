@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         TextView headerView = (TextView) findViewById(R.id.header);
         switch(id){
-            case R.id.action_settings :
+            case R.id.action_settings:
                 headerView.setText("Настройки");
                 return true;
             case R.id.open_settings:
