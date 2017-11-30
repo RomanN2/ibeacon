@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MenuApp2.iml" filepath="$PROJECT_DIR$/MenuApp2.iml" />
+      <module fileurl="file://D:\ghd\ibeacon\MenuApp2\MenuApp2.iml" filepath="D:\ghd\ibeacon\MenuApp2\MenuApp2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\ghd\ibeacon\MenuApp2\app\app.iml" filepath="D:\ghd\ibeacon\MenuApp2\app\app.iml" />
     </modules>
   </component>
 </project>
