@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity_second"></activity>
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".SaveActivity" />
+        <activity android:name=".Open_Activity"></activity>
     </application>
 
 </manifest>
