@@ -100,8 +100,7 @@
                 android:linksClickable="true"
                 android:scrollbarStyle="outsideOverlay"
                 android:scrollbars="vertical"
-                android:text="Vladimir Kush - Departure of the Winged Ship.
-The image symbolically conveys to us the feelings of happiness and beauty of the world arousing in everyone bound on a distant voyage. In Japan, the image of the butterfly has inspired the artists for hundreds of years. It is always associated with the best moments in life. Here, traditional celebrations and marches begin with “the dance of the butterfly.” Butterflies also accompany wedding ceremonies in Japan. But not all know that butterflies are the amazing and courageous travelers. In favorable winds Monarch butterflies from North America can cross the Atlantic to reach England, resting as needed on the decks of ships."
+                android:text="Vladimir Kush - Departure of the Winged Ship.\n\nThe image symbolically conveys to us the feelings of happiness and beauty of the world arousing in everyone bound on a distant voyage. In Japan, the image of the butterfly has inspired the artists for hundreds of years. It is always associated with the best moments in life. Here, traditional celebrations and marches begin with “the dance of the butterfly.” Butterflies also accompany wedding ceremonies in Japan. But not all know that butterflies are the amazing and courageous travelers. In favorable winds Monarch butterflies from North America can cross the Atlantic to reach England, resting as needed on the decks of ships."
                 android:textSize="24sp"
                 android:textStyle="italic"
                 app:layout_constraintHorizontal_bias="0.483"
