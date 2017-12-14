@@ -16,6 +16,7 @@ public class Th_Activity extends AppCompatActivity implements View.OnClickListen
     Button buttonCall;
     Button buttonMaps;
     Button buttonWeb;
+    Button button4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +25,14 @@ public class Th_Activity extends AppCompatActivity implements View.OnClickListen
         Button backToMain;
         backToMain = (Button) findViewById(R.id.backToMain);
         backToMain.setOnClickListener((View.OnClickListener) this);
-        buttonCall=(Button) findViewById(R.id.buttonCall);
-        buttonWeb=(Button) findViewById(R.id.buttonWeb);
-        buttonMaps=(Button) findViewById(R.id.buttonMaps);
+        buttonCall = (Button) findViewById(R.id.buttonCall);
+        buttonWeb = (Button) findViewById(R.id.buttonWeb);
+        buttonMaps = (Button) findViewById(R.id.buttonMaps);
         buttonMaps.setOnClickListener(this);
         buttonWeb.setOnClickListener(this);
         buttonCall.setOnClickListener(this);
+        button4 = (Button) findViewById(R.id.button4);
+        button4.setOnClickListener(this);
 
 
     }
@@ -46,7 +49,7 @@ public class Th_Activity extends AppCompatActivity implements View.OnClickListen
                 startActivity(intent);
                 break;
             case R.id.buttonMaps:
-                intent=new Intent();
+                intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse("geo:49.85805889,24.02611256"));
                 startActivity(intent);
@@ -56,7 +59,10 @@ public class Th_Activity extends AppCompatActivity implements View.OnClickListen
                 intent.setData(Uri.parse("tel:0501833403"));
                 startActivity(intent);
                 break;
-
+            case R.id.button4:
+                Intent intent1 = new Intent(this, Navigation_Activity.class);
+                startActivity(intent1);
+                break;
 
 
         }
