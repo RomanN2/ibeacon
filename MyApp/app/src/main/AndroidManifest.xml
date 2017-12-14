@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.user.myapp">
-<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +22,11 @@
             android:name=".Activity_Second"
             android:label="@string/title_activity__second"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Th_Activity"></activity>
+        <activity android:name=".Th_Activity" />
+        <activity
+            android:name=".Navigation_Activity"
+            android:label="@string/title_activity_navigation_"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
