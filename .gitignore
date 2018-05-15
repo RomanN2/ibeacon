@@ -1,0 +1,10 @@
+
+*.flat
+
+*.rawproto
+
+*.ser
+
+MyApp/\.idea/codeStyles/Project\.xml
+
+\.idea/modules\.xml
