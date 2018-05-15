@@ -7,10 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.android.gms.ads.AdView;
-
-import java.net.URI;
-
 public class Th_Activity extends AppCompatActivity implements View.OnClickListener {
     Button backToMain;
     Button buttonCall;
@@ -60,7 +56,7 @@ public class Th_Activity extends AppCompatActivity implements View.OnClickListen
                 startActivity(intent);
                 break;
             case R.id.button4:
-                Intent intent1 = new Intent(this, Navigation_Activity.class);
+                Intent intent1 = new Intent(this, NavigationActivity.class);
                 startActivity(intent1);
                 break;
 
