@@ -8,13 +8,11 @@ import android.view.View;
 public class BluetoothLowEnergyActivity extends AppCompatActivity {
     MediaPlayer mMediaPlayer;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bluetooth_low_energy_activity);
         mMediaPlayer = MediaPlayer.create(this, R.raw.acdc);
-
     }
 
     public void playSound(View v) {
@@ -29,7 +27,6 @@ public class BluetoothLowEnergyActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         mMediaPlayer.release();
-
     }
 }
 
