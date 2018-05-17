@@ -18,12 +18,12 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.example.user.myapp.Fragments.DevTeamFragment;
-import com.example.user.myapp.Fragments.GalleryFragment;
 import com.example.user.myapp.Fragments.FragmentImport;
 import com.example.user.myapp.Fragments.FragmentSend;
 import com.example.user.myapp.Fragments.FragmentShare;
 import com.example.user.myapp.Fragments.FragmentSlideshow;
 import com.example.user.myapp.Fragments.FragmentTools;
+import com.example.user.myapp.Fragments.GalleryFragment;
 
 public class NavigationActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -118,7 +118,7 @@ public class NavigationActivity extends AppCompatActivity
         }
         fragmentTransaction.commit();
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
